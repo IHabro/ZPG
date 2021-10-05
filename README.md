@@ -2,7 +2,7 @@
 
 Expecting directory structure: <br />
 ZPG/lib <br />
-   /solution <br />
+ZPG/solution <br />
 
 Project - Properties: <br />
 c++/General/Add. inc. dirs. <br />
