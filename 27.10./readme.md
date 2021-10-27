@@ -4,5 +4,5 @@ Working ZPG Project <br />
 Singleton implemented <br />
 Factory implemented <br />
 Scene & GeneralModel corrected <br />
-Camera class created #ToDo <br />
+Camera class created <b>ToDo<b/> <br />
 Draws 2 triangles
