@@ -8,4 +8,4 @@ Draws 2 triangles <br />
 ToDo:<br />
 Camera <br />
 Shader IDs & types (konstantní, Lambert, Phong, Blinn) <br />
-min 3 more objects (with multiple Transform Matricies) <br />
+Min 3 more objects (with multiple Transform Matricies) <br />
