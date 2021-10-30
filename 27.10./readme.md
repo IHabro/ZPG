@@ -2,6 +2,7 @@
 
 Working ZPG Project <br />
 Singleton & Factory implemented <br />
+Shape -> GeneralModel <br />
 Scene & GeneralModel corrected <br />
 Draws 2 triangles <br />
 <br />
