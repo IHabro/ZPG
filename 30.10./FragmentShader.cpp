@@ -1,0 +1,29 @@
+#include "FragmentShader.h"
+
+
+
+FragmentShader::FragmentShader()
+{
+	this->fragment_shader =
+		"#version 330\n"
+		"in vec4 colour;"
+		"out vec4 frag_colour;"
+		"void main () {"
+		"     frag_colour = vec4(1.0, 0.0, 0.0, 1.0);"
+		"     frag_colour = vec4(colour);"
+		"}";
+
+	this->fragmentShaderId = glCreateShader(GL_FRAGMENT_SHADER);
+	glShaderSource(this->fragmentShaderId, 1, &this->fragment_shader, NULL);
+	glCompileShader(this->fragmentShaderId);
+}
+
+FragmentShader::~FragmentShader()
+{
+
+}
+
+GLuint FragmentShader::GetFragmentShader()
+{
+	return this->fragmentShaderId;
+}
