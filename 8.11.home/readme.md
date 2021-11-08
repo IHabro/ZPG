@@ -9,3 +9,4 @@ I think there is a problem with lightPosition and viewMatrix in Object.Draw() Me
 ObjectManager Class<br/>
 Renderer Class<br/>
 Maybe add AbstractModel and SphereModel, PlainModel... (based on GeneralModel Class - get rid of points)<br/>
+Add Observers to Light and Camera <br/>
