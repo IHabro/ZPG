@@ -14,4 +14,7 @@ linker/General/Add. Lib. dirs. <br />
 linker/Input/Add. dep. <br />
 opengl32.lib;glu32.lib;glfw3.lib;glew32.lib;%(AdditionalDependencies) <br />
 
-After Building the project add glew32.dll to Debug Dir
+Add contents of Models & Shaders Dirs <br />
+
+After project build add glew32.dll to Debug Dir <br />
+
